@@ -20,7 +20,7 @@ import edu.jsu.mcis.cs310.tas_fa23.Shift;
  */
 public final class DAOUtility {
     
-    public static String getPunchListsAsJSON(ArrayList<Punch> dailypunchlist) {
+    public static String getPunchListAsJSON(ArrayList<Punch> dailypunchlist) {
         ArrayList<HashMap<String, String>> jsonData = new ArrayList<>();
         DateTimeFormatter format = DateTimeFormatter.ofPattern("EEE MM/dd/yyyy HH:mm:ss");
         
